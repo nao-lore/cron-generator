@@ -20,14 +20,24 @@ export default function Home() {
         <SeoContent />
       </main>
 
-      <footer className="bg-white border-t border-slate-200 mt-12">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 text-center text-sm text-slate-500">
-          <p>
-            Cron Expression Generator — A free developer tool for building and understanding cron schedules.
+      <footer className="border-t border-slate-200 mt-12 py-8 text-center">
+        <div className="max-w-3xl mx-auto px-4">
+          <p className="text-sm text-gray-500 mb-4">
+            Cron Expression Generator — Free online tool. No signup required.
           </p>
-          <p className="mt-1">
-            All processing happens in your browser. No data is sent to any server.
-          </p>
+          <div className="mb-4">
+            <p className="text-xs text-gray-400 mb-2">Related Tools</p>
+            <div className="flex flex-wrap justify-center gap-2">
+              <a href="https://epoch-converter-eosin.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Epoch Converter</a>
+              <a href="https://chmod-calculator-gules.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Chmod Calculator</a>
+              <a href="https://regex-tester-three.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Regex Tester</a>
+              <a href="https://uuid-generator-eight-psi.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">UUID Generator</a>
+              <a href="https://timezone-converter-rouge-two.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Timezone Converter</a>
+            </div>
+          </div>
+          <div className="flex justify-center gap-3 text-xs text-gray-400">
+            <a href="https://cc-tools.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">53+ Free Tools →</a>
+          </div>
         </div>
       </footer>
     </>
